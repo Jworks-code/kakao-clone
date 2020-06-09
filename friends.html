@@ -7,10 +7,11 @@
       src="https://kit.fontawesome.com/6df72c3e40.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
-    <div class="stats-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:53</span>
       </div>
@@ -18,7 +19,7 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <div class="span status-bar__battery-level">100%</div>
+        <span class="status-bar__battery-level">100%</span>
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
@@ -46,7 +47,7 @@
               <span class="friend__name">
                 Sang Joon Lee
               </span>
-              <span class="freind__status">
+              <span class="friend__status">
                 J-works-code
               </span>
             </div>      
@@ -54,10 +55,10 @@
         </div>
       </header>
           <div class="friends__plus">
-              <h5 class="friends__-title">Plus friend</h5>
+              <h5 class="friends__title">Plus friend</h5>
               <div class="friends__friend friend">
                   <div class="friend__column">
-                <img src="images/joon.png" class="g-avatar friend__avatar"></img>
+                <img src="images/joon.png" class="friend__avatar"></img>
                 <div class="friend__content">
                   <span class="friend__name">
                     Plus Friend
@@ -68,34 +69,57 @@
           </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend">
+        <a href="index.html">
+        <li class="friends__friend friend friends__row">
             <div class="friend__column">
-          <img src="images/joon.png" class="g-avatar friend__avatar"></img>
+          <img src="images/seonhwa.png" class="friend__avatar"></img>
           <div class="friend__content">
             <span class="friend__name">
-              Sang Joon Lee
+              오선화
             </span>
-            <span class="freind__status">
-              J-works-code
+            <span class="friend__status">
+              사랑하는 아내
             </span>
           </div>
         </div>
         <div class="friend__column">
             <div class="friend__now-listening">
                 <span>
-                  FTISLAND (FT NomadCoders)  
+                  꽃들도 (Makers Worship)  
+                <i class="fas fa-play"></i>  
                 </span>
-                <i class="fas fa-play"></i>
             </div>
         </div>
         </li>
+      </a>
+        <li class="friends__friend friend friends__row">
+          <div class="friend__column">
+        <img src="images/haejoon.png" class="friend__avatar"></img>
+        <div class="friend__content">
+          <span class="friend__name">
+            이해준
+          </span>
+          <span class="friend__status">
+            사랑하는 아들
+          </span>
+        </div>
+      </div>
+      <div class="friend__column">
+          <div class="friend__now-listening">
+              <span>
+                온 땅의 주인 (Makers Worship)  
+              <i class="fas fa-play"></i>  
+              </span>
+          </div>
+      </div>
+      </li>
       </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
+            <i class="fas fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">

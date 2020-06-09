@@ -7,10 +7,11 @@
       src="https://kit.fontawesome.com/6df72c3e40.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>More | Kakao Clone</title>
   </head>
   <body>
-    <div class="stats-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:53</span>
       </div>
@@ -18,7 +19,7 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <div class="span status-bar__battery-level">100%</div>
+        <span class="status-bar__battery-level">100%</span>
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
@@ -49,7 +50,7 @@
             <span class="friend__name">
               Sang Joon Lee
             </span>
-            <span class="freind__status">
+            <span class="friend__status">
               jeremy7858@gmail.com
             </span>
           </div>
@@ -87,17 +88,23 @@
       </header>
       <section class="more__suggestions">
           <h5 class="more__title">Suggestions</h5>
-          <ul class="more_suggestions-list">
+          <ul class="more__suggestions-list">
               <li class="more_suggestion suggestion">
-                  <i class="fas fa-quote-right fa-2x"></i>
+                  <span class="suggestion__icon">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                  </span>
                   <span class="suggestion__title">KaKao story</span>
               </li>
               <li class="more_suggestion suggestion">
-                <i class="fas fa-beer fa-2x"></i>
-                <span class="suggestion__title">Kakao Friends</span>
+                  <span class="suggestion__icon">
+                  <i class="fas fa-beer fa-2x"></i>
+                  </span>
+                  <span class="suggestion__title">Kakao Friends</span>
               </li>
              <li class="more_suggestion suggestion">
-                <i class="fas fa-gamepad fa-2x"></i>
+                 <span class="suggestion__icon">
+                  <i class="fas fa-gamepad fa-2x"></i>
+                </span>
                 <span class="suggestion__title">Friends Gem</span>
             </li>
           </ul>
